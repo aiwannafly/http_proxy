@@ -1,5 +1,5 @@
 # HTTP Proxy
-A simple HTTP 1.* proxy implemented in `C++` with use of `pthread` library.
+A simple caching HTTP 1.* proxy implemented in `C++` with use of `pthread` library.
 
 Основной класс прокси-сервера находится в файле `multithread_proxy.cpp`. Архитектура очень простая, удалось сделать хорошую модульность. Классы клиента и сервера располагаются в директориях `client` и `server` соответственно.
 
